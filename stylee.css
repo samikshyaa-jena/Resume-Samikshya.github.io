@@ -1,0 +1,122 @@
+*{
+box-sizing:border-box;
+}
+body{
+font-family:arial;
+
+background-size: contain;
+margin:0;
+}
+header{
+background:black;
+display:flex;
+justify-content: space-between;
+padding: 1%;
+
+  position: sticky;
+  left: 0;
+  top: 0;
+}
+header li{
+color:white;
+padding: 0;
+
+}
+header li a{
+  list-style: none;
+  font-size: 18px;
+color:white;
+ padding: 2px 15px;
+}
+header ul{
+list-style:none;
+display:flex;
+
+ 
+}
+#topbar{  
+  display: flex;
+  justify-content: space-between;
+  color: black;
+  padding: 1%;
+  margin: 0 3%;
+
+  
+}
+.main{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background: rgb(22, 33, 43);
+  color: white;
+  padding: 3% 10%;
+
+}
+.information li{
+  padding: 10px 0 0 0;
+  list-style: none;
+  display: inline-block;
+}
+#about{
+  border: 2px solid none;
+  margin: 5% 15% 0 15%;
+}
+#education{
+  margin: 2% 14%;
+  border: 2px solid none;
+}
+#projects{
+  margin-bottom: 5%;
+  background: rgb(22, 33, 43);
+  color: white;
+}
+.section-title{
+  padding-top: 3%;
+}
+.main2{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 2% 5%;
+}
+.description{
+  border: 2px solid none;
+  width: 100%;
+}
+.project-img{
+  border: 2px solid none;
+  width: 100%;
+}
+img{
+  width: 100%;
+}
+.contactt{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border: 2px solid none;
+  margin: 5%;
+}
+.cont{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border: 2px solid none;
+  max-width: 300px;
+  }
+  #footer{
+  margin-top: 5%;
+  background: black;
+  color: white;
+  }
+    header li a:hover{
+  }
+  }
+ 
+  color: blue;
+
+}
+
+a{
+text-decoration:none;
+}
