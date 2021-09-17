@@ -164,7 +164,7 @@
       color: blue;
       font-size: 20px;    
     }
-    .project-img:hover{
+    .project-img img:hover{
         padding: 10%;
     }
     .resume:hover{
