@@ -32,6 +32,11 @@
         padding-top: 1%;
         padding-bottom: 0;
     }
+        .logo-img{
+      width:50px;
+      clip-path: circle(35% at 50% 32%);
+      padding: 0;
+    }
     #topbar{  
       display: flex;
       justify-content: space-between;
