@@ -32,7 +32,7 @@
         padding-top: 1%;
         padding-bottom: 0;
     }
-        .logo-img{
+    .logo-img{
       width:50px;
       clip-path: circle(35% at 50% 32%);
       padding: 0;
@@ -95,14 +95,14 @@
     }
     .addat{
         border: 2px solid none;
-        width: 200px;
+        width: 300px;
     }
     #education{
       margin: 2% 10%;
       border: 2px solid none;
     }
     #projects{
-      margin-bottom: 5%;
+      padding-bottom: 7%;
       background: rgb(22, 33, 43);
       color: white;
     }
@@ -130,6 +130,16 @@
     .project-img{
       border: 2px solid none;
       width: 100%;
+    }
+    .m-p-img{
+      border: 2px solid none;
+      width: 100%;
+      height: 250px;
+      
+    }
+    .project-img:hover{
+        opacity: 90%;
+        padding: 3%;        
     }
     img{
       width: 100%;
@@ -164,9 +174,7 @@
       color: blue;
       font-size: 20px;    
     }
-    .project-img img:hover{
-        padding: 10%;
-    }
+
     .resume:hover{
         font-size: 20px;
     }
@@ -174,7 +182,7 @@
     a{
     text-decoration:none;
     }
-    header li a:active{
+    a:active{
     color: blue;
     }
 
@@ -211,6 +219,11 @@
     .resume:hover{
         font-size: 17px;
     }
+        .m-p-img{
+ 
+      height: 200px;
+      
+    }
     .project-img:hover{
         display: flex;
         align-self: center;
@@ -238,7 +251,7 @@
             max-width: 100px;
         }
 
-}    
+}   
 
 
     @media screen and (max-width:400px)
@@ -281,8 +294,9 @@
             border: 2px solid none;
             max-width: 100px;
         }
-    .logo-img{
-      width: 10px;      
+
+   .logo-img{
+      width:0;
     }
 
 } 
