@@ -282,7 +282,9 @@
             max-width: 100px;
         }
     .logo-img{
+      width: 100%;
       width: 10px;
+      height: 20px;
     }
 
 } 
