@@ -276,5 +276,8 @@
             border: 2px solid none;
             max-width: 100px;
         }
+    .logo-img{
+      width:10px;
+    }
 
 } 
