@@ -33,7 +33,7 @@
         padding-bottom: 0;
     }
         .logo-img{
-      width:0;
+      width:50px;
       clip-path: circle(35% at 50% 32%);
       padding: 0;
     }
