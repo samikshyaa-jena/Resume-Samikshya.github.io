@@ -174,7 +174,7 @@
     a{
     text-decoration:none;
     }
-    a:active{
+    header li a:active{
     color: blue;
     }
 
