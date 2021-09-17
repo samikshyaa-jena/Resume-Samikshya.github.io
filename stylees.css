@@ -1,0 +1,288 @@
+*{
+    box-sizing:border-box;
+    }
+    body{
+    font-family:'Times New Roman', Times, serif;
+    
+    background-size: contain;
+    margin:0;
+    }
+    header{
+    background:black;
+    display:flex;
+    justify-content: space-between;
+    padding: 1% 1% 0 1%;
+    
+      position: sticky;
+      left: 0;
+      top: 0;
+    }
+  
+    header li a{
+      list-style: none;
+      font-size: 18px;
+    color:white;
+     padding: 2px 15px;
+    }
+    header ul{
+    list-style:none;
+    display:flex;    
+    }
+    #logo{
+        padding-top: 1%;
+        padding-bottom: 0;
+    }
+        .logo-img{
+      width:50px;
+      clip-path: circle(35% at 50% 32%);
+      padding: 0;
+    }
+    #topbar{  
+      display: flex;
+      justify-content: space-between;
+      color: black;
+      padding: 1%;
+      margin: 0 3%;
+    
+      
+    }
+    #home{
+
+      background: rgb(214, 238, 157);
+      /*background: url("images/abstract-orange-polygonal-banner.jpg") no-repeat;*/
+      background-blend-mode: lighten;   
+      background-size: cover;
+
+    
+    }
+    .main{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;  
+        
+        /*background: rgb(214, 238, 157);*/
+        color: black;
+        padding: 0 10% 3% 10%;    
+      }
+    .information li{
+      padding: 10px 0 0 0;
+      list-style: none;
+      display: inline-block;
+    }
+    #about{
+      border: 2px solid none;
+      margin: 5% 10% 0 10%;
+    }
+    .resume{
+        float: right;
+        border: 2px solid none;
+        border-radius: 5px;
+        padding: 1%; margin-right: 6%;
+        color: blue;
+        font-size: 17px;
+    }
+    .addr{
+        display: flex;
+        flex-direction: column;        
+    }
+    .subadr{
+        display: flex;      
+        flex-direction: row; 
+    }
+    .addvl{
+        border: 2px solid none;
+        margin-left: 25px;
+    }
+    .addat{
+        border: 2px solid none;
+        width: 200px;
+    }
+    #education{
+      margin: 2% 10%;
+      border: 2px solid none;
+    }
+    #projects{
+      margin-bottom: 5%;
+      background: rgb(22, 33, 43);
+      color: white;
+    }
+    .project-img img{
+        border: 2px solid none;
+        border-radius: 10px;
+    }
+    .p-title{
+        color: greenyellow;
+    }
+    .section-title{
+      padding-top: 3%;
+      color: red;
+    }
+    .main2{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      padding: 2% 5%;
+    }
+    .description{
+      border: 2px solid none;
+      width: 100%;
+    }
+    .project-img{
+      border: 2px solid none;
+      width: 100%;
+    }
+    img{
+      width: 100%;
+    }
+    .contactt{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      border: 2px solid none;
+      margin: 5%;
+    }
+    .cont{
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 5%;
+      border: 2px solid none;
+      max-width: 300px;
+      font-size: 20px;
+      }
+      .cont-font{
+        color: blue; 
+        font-size: 20px;       
+        
+      }
+   
+      #footer{
+      margin-top: 5%;
+      background: black;
+      color: white;
+      }
+      header li a:hover{    
+      color: blue;
+      font-size: 20px;    
+    }
+    .project-img:hover{
+        width: 80%;
+    }
+    .resume:hover{
+        font-size: 20px;
+    }
+    
+    a{
+    text-decoration:none;
+    }
+    a:active{
+    color: blue;
+    }
+
+
+    @media screen and (max-width:600px)
+{
+    .main2{
+        display: flex;
+        flex-direction: column;        
+        padding: 2% 5%;
+      }
+      .order{
+          order: -1;
+      }
+      header{
+        display: flex;
+        flex-direction: column;
+    }
+    header li a{
+        font-size: 15px;
+        padding: 1px 10px;
+    }
+    header li a:hover{    
+        font-size: 17px;    
+      }
+    #logo{
+        display: flex;
+        align-self: center;
+        padding-top: 15px;
+    }
+    .resume{
+        font-size: 15px;
+    }
+    .resume:hover{
+        font-size: 17px;
+    }
+    .project-img:hover{
+        display: flex;
+        align-self: center;
+    }
+      .contactt{
+        
+        flex-direction: column;
+      
+        }
+        .phone{
+            margin-right: 0;
+            padding-right: 0;
+        }
+       
+        .addvl{
+            
+            margin-left: 10px;
+        }
+        .addat{
+            
+            width: 150px;
+        }
+        .add{
+            border: 2px solid none;
+            max-width: 100px;
+        }
+
+}    
+
+
+    @media screen and (max-width:350px)
+{
+    .main2{
+        display: flex;
+        flex-direction: column;        
+        padding: 2% 3%;
+      }
+
+    header li a{
+        font-size: 8px;
+        padding: 1px 5px;
+    }
+    header li a:hover{    
+        font-size: 10px;    
+      }
+    #logo{
+        display: flex;
+        align-self: center;
+        padding-top: 10px;
+    }
+    .resume{
+        font-size: 10px;
+    }
+    .resume:hover{
+        font-size: 12px;
+    }
+
+       
+        .addvl{
+            
+            margin-left: 5px;
+        }
+        .addat{
+            
+            width: 100px;
+        }
+        .add{
+            border: 2px solid none;
+            max-width: 100px;
+        }
+    .logo-img{
+      width: 10px;
+    }
+
+} 
