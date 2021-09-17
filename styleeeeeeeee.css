@@ -234,3 +234,47 @@
         }
 
 }    
+
+
+    @media screen and (max-width:250px)
+{
+    .main2{
+        display: flex;
+        flex-direction: column;        
+        padding: 2% 3%;
+      }
+
+    header li a{
+        font-size: 8px;
+        padding: 1px 5px;
+    }
+    header li a:hover{    
+        font-size: 10px;    
+      }
+    #logo{
+        display: flex;
+        align-self: center;
+        padding-top: 10px;
+    }
+    .resume{
+        font-size: 10px;
+    }
+    .resume:hover{
+        font-size: 12px;
+    }
+
+       
+        .addvl{
+            
+            margin-left: 5px;
+        }
+        .addat{
+            
+            width: 100px;
+        }
+        .add{
+            border: 2px solid none;
+            max-width: 100px;
+        }
+
+} 
