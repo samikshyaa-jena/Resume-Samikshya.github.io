@@ -97,6 +97,10 @@
         border: 2px solid none;
         width: 300px;
     }
+            .cta{
+          margin: 0;
+        }
+
     #education{
       margin: 2% 10%;
       border: 2px solid none;
@@ -250,6 +254,9 @@
         .add{
             border: 2px solid none;
             max-width: 100px;
+        }
+        .cta{
+          margin-bottom: 10px;
         }
 
 }   
