@@ -51,9 +51,11 @@
       background: url("images/Pic2.jfif") no-repeat;
       /*background: url("images/abstract-orange-polygonal-banner.jpg") no-repeat;*/
          
-      background-size: cover;
-
-    
+      background-size: cover;    
+    }
+    .mhome{
+      padding: 5% 0;
+      color: white;
     }
     .main{
         display: flex;
