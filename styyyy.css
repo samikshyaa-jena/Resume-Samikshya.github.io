@@ -48,13 +48,14 @@
     }
     #home{
 
-      background: url("images/Pic.jfif") no-repeat;
+      background: url("images/bg6.jpg") no-repeat;
       /*background: url("images/abstract-orange-polygonal-banner.jpg") no-repeat;*/
          
       background-size: cover;    
     }
     .mhome{
-      padding: 5% 0;
+      padding: 3% 0;
+      color: white;
       
     }
     .main{
@@ -73,7 +74,7 @@
     }
     #about{
       border: 2px solid none;
-      margin: 5% 10% 0 10%;
+      margin: 3% 10% 0 10%;
     }
     .resume{
         float: right;
